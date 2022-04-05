@@ -1,0 +1,476 @@
+@media screen and (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:'Bai Jamjuree';
+    }
+    .container{
+        width: 100%;
+    }
+    
+    .header-section{
+        height: 40vh;
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+    }
+    
+    .header-section > div{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+       
+    }
+    
+    .intro{
+        text-align: center;
+    }
+    
+    .intro > h2{
+        font-size: 2em;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .intro > p{
+        margin: 10px auto;
+        text-align: center;
+        font-size: 1em;
+        width: 66%;
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        flex-direction: column;
+    }
+    
+    .buttons > li{
+        color: white;
+        margin: 10px auto;
+        height: 24px;
+        padding: 10px 40px;
+        background-color:hsl(171, 66%, 44%);
+        cursor: pointer;
+        width: 50%;
+        border-radius: 20px;
+    }
+    
+    .buttons > li:nth-child(2){
+        background-color:hsl(233, 100%, 69%);
+    }
+    
+    .track >h2{
+        font-size: 2em;
+        text-align: center;
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        margin-left:30px ;
+    }
+    
+    .track >p{
+        width: 66%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .mid_section{
+        display: grid;
+        grid-template-columns: 100%;
+        height: auto;
+    }
+    
+    .image{
+      display: flex;
+      justify-content: center;
+      margin: 50px auto;
+
+    }
+
+
+    .image > img{
+        width: 70%;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .mid-section-right > div{
+       width:100%;
+       margin-top: 50px;
+    }
+    .mid-section-right > div > h3{
+        text-align: center;
+    }
+    
+    .mid-section-right > div >p{
+      width: 70%;
+      margin: 10px auto;
+      text-align: center;
+    
+    }
+    
+    .access{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .access > h3{
+        font-size: 2em;
+        width: 80%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+    .access > p{
+        margin :0px auto;
+        text-align: center;
+        width: 66%;
+    }
+    
+    .access > img{
+        margin: 30px auto;
+        width: 66%;
+    }
+    
+    .super > h3{
+        margin :10px auto;
+        text-align: center;
+        width: 80%;
+        font-size: 2em;
+    }
+    
+    .super > p{
+        text-align: center;
+        margin: 40px auto;
+        width: 66%;
+    }
+    
+    .container-flex{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    .container-flex > div{
+        margin: 20px 0.5%;
+        width: 100%;
+    }
+    
+    
+    .container-flex > div > img:nth-child(1){
+        margin: 0px 45%;
+    }
+    .container-flex > div > img{
+     margin: 30px 45%;
+     text-align: center;
+    }
+    
+    .container-flex > div > h3{
+     text-align: center;
+     margin: 15px;
+    }
+    
+    .container-flex > div > p{
+        text-align: center;
+        margin: 0 auto;
+        width: 75%;
+    }
+    
+    .companies{
+       display: grid;
+       justify-content: center;
+     
+    }
+    
+    .companies > img{
+        margin-top :50px;
+        width: 200px;
+    }
+    
+    
+    .clip > h2{
+        text-align: center;
+        font-size: 2em;
+        margin: 100px auto;
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    
+    .clip > p{
+        margin:20px auto;
+        text-align: center;
+        width:65%;
+    }
+
+   
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(228, 228, 228);
+        margin-top: 30px;
+    }
+
+   .logo{
+       margin-top: 40px;
+   }
+    .mid-footer{
+        margin: 5px auto;
+    }
+    .logo > img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .socials > img{
+        width: 30px;
+        height: 30px;
+        margin :10px;
+    }
+    
+    .mid-footer > p:hover{
+        color:hsl(171, 66%, 44%);
+        cursor: pointer;
+        transition:.1s;
+    }
+    
+    .socials > img:hover{
+        background-color:hsl(171, 66%, 44%);
+        cursor: pointer;
+        transition:.1s;
+    }
+}
+@media screen and (min-width:481px){
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Bai Jamjuree';
+}
+.container{
+    width: 100%;
+}
+
+.header-section{
+    width: 100%;
+    height: 40vh;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+.header-section > div{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro > h2{
+    font-size: 2.5em;
+}
+
+.intro > p{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1em;
+    width: 35%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.buttons > li{
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color:hsl(171, 66%, 44%);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.buttons > li:nth-child(2){
+    background-color:hsl(233, 100%, 69%);
+}
+
+.track >h2{
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.track >p{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid_section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px 0;
+    height: auto;
+   
+}
+
+.mid_section > div > img{
+    width: 90%;
+    position: relative;
+    height: 500px;
+    left: -50px;
+}
+
+.mid-section-right > div > h3{
+    margin: 40px 0 10px 0;
+    font-size: 1.5em;
+}
+
+.mid-section-right > div >p{
+    width: 45%;
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+
+.access{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.access > h3{
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.access > p{
+    margin :10px auto;
+    text-align: center;
+    width: 40%;
+}
+
+.access > img{
+    margin: 30px auto;
+    width: 50%;
+}
+
+.super > h3{
+    margin :10px auto;
+    text-align: center;
+    font-size: 2.1em;
+}
+
+.super > p{
+    text-align: center;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.container-flex > div{
+    margin: 20px ;
+    width: 23%;
+}
+
+
+.container-flex > div > img:nth-child(1){
+    margin: 0px 45%;
+}
+.container-flex > div > img{
+ margin: 30px 45%;
+ text-align: center;
+}
+
+.container-flex > div > h3{
+ text-align: center;
+ margin: 15px;
+}
+
+.container-flex > div > p{
+    text-align: center;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.companies > img{
+   margin: 100px 30px;
+}
+
+
+.clip > h2{
+    text-align: center;
+    font-size: 2.2em;
+    margin: 10px;
+}
+
+.clip > p{
+    margin:20px auto;
+    text-align: center;
+    width:40%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 3fr;
+    margin-top:60px ;
+    background-color: rgb(240, 240, 240);
+    height: 200px;
+}
+
+footer > div{
+    margin-top: 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo > img{
+    width: 100px;
+    height: 100px;
+}
+
+.mid-footer > p{
+    margin: 10px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+.socials > img{
+    width: 30px;
+    height: 30px;
+    margin :10px;
+}
+
+.mid-footer > p:hover{
+    color:hsl(171, 66%, 44%);
+    cursor: pointer;
+    transition:.1s;
+}
+
+.socials > img:hover{
+    background-color:hsl(171, 66%, 44%);
+    cursor: pointer;
+    transition:.1s;
+}
+}
